@@ -1,0 +1,429 @@
+{
+  "users": [
+    {
+      "userId": "usr_admin_1",
+      "name": "System Administrator",
+      "email": "admin@quickbite.com",
+      "phone": "+91 98470 12345",
+      "role": "ADMIN",
+      "active": true,
+      "createdAt": "2026-10-18T10:00:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVeRN8AmYZclgXWShZEwUWDXNnJZjJwobm"
+    },
+    {
+      "userId": "usr_cust_1",
+      "name": "Alan Simon Tom",
+      "email": "customer@quickbite.com",
+      "phone": "+91 98470 54321",
+      "deliveryAddress": "Green Valley Villa No. 4, Kanjirappally, Kottayam, Kerala - 686507",
+      "role": "CUSTOMER",
+      "active": true,
+      "createdAt": "2026-10-18T10:15:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVeC7O75GOtDheABW2Q41/l7v9VulDo1zG"
+    },
+    {
+      "userId": "usr_cust_2",
+      "name": "Sneha Roy",
+      "email": "sneha@example.com",
+      "phone": "+91 97451 98765",
+      "deliveryAddress": "Flat 302, Skyline Heights, College Road, Kottayam",
+      "role": "CUSTOMER",
+      "active": true,
+      "createdAt": "2026-10-19T09:30:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVeC7O75GOtDheABW2Q41/l7v9VulDo1zG"
+    },
+    {
+      "userId": "usr_rest_1",
+      "name": "Chef Rajesh (Royal Spice)",
+      "email": "spice@quickbite.com",
+      "phone": "+91 98460 11223",
+      "restaurantId": "rest_1",
+      "role": "RESTAURANT",
+      "active": true,
+      "createdAt": "2026-10-18T10:20:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVeenH6122U4janQa93kd5RgzPZ.nf5cDe"
+    },
+    {
+      "userId": "usr_rest_2",
+      "name": "Chef Marco (Bella Italia)",
+      "email": "pasta@quickbite.com",
+      "phone": "+91 98460 33445",
+      "restaurantId": "rest_2",
+      "role": "RESTAURANT",
+      "active": true,
+      "createdAt": "2026-10-18T10:25:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVe3Ykq1Wv.3vvLn/x.VcRD1sSHpqHOy5K"
+    },
+    {
+      "userId": "usr_rest_3",
+      "name": "Burger Craft Manager",
+      "email": "burger@quickbite.com",
+      "phone": "+91 98460 55667",
+      "restaurantId": "rest_3",
+      "role": "RESTAURANT",
+      "active": true,
+      "createdAt": "2026-10-18T10:30:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVeNXVt9pxWFEpvBmEY4ghwbZ9Si.0kfLG"
+    },
+    {
+      "userId": "usr_dp_1",
+      "name": "Alex Kumar",
+      "email": "alex@quickbite.com",
+      "phone": "+91 94471 22334",
+      "partnerId": "dp_1",
+      "role": "DELIVERY_PARTNER",
+      "active": true,
+      "createdAt": "2026-10-18T10:35:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVet467fuoWzu5PrlwHRZYea3pEkfDVhv."
+    },
+    {
+      "userId": "usr_dp_2",
+      "name": "Rahul Nair",
+      "email": "rahul@quickbite.com",
+      "phone": "+91 94472 55667",
+      "partnerId": "dp_2",
+      "role": "DELIVERY_PARTNER",
+      "active": true,
+      "createdAt": "2026-10-18T10:40:00.000Z",
+      "passwordHash": "$2b$10$O3MSeyMuoIzL3i770A7mVe8EUZZReBS/GMewxCmjr/6RcQ/vigYN2"
+    }
+  ],
+  "restaurants": [
+    {
+      "restaurantId": "rest_1",
+      "name": "Royal Spice Kitchen",
+      "address": "Main Town Junction, Kanjirappally",
+      "contact": "+91 98460 11223",
+      "cuisine": "North & South Indian",
+      "rating": 4.8,
+      "deliveryTime": "25-35 mins",
+      "minOrder": 150,
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&auto=format&fit=crop&q=80",
+      "active": true
+    },
+    {
+      "restaurantId": "rest_2",
+      "name": "Bella Italia Trattoria",
+      "address": "Civil Lines, Near Medical Centre, Kottayam",
+      "contact": "+91 98460 33445",
+      "cuisine": "Italian, Pizzas & Pastas",
+      "rating": 4.6,
+      "deliveryTime": "30-40 mins",
+      "minOrder": 200,
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
+      "active": true
+    },
+    {
+      "restaurantId": "rest_3",
+      "name": "Burger Craft & Shakes",
+      "address": "Opp. Amal Jyothi Campus, Koovappally",
+      "contact": "+91 98460 55667",
+      "cuisine": "Gourmet Burgers, Fast Food & Shakes",
+      "rating": 4.7,
+      "deliveryTime": "20-30 mins",
+      "minOrder": 120,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=80",
+      "active": true
+    }
+  ],
+  "menuItems": [
+    {
+      "itemId": "item_101",
+      "restaurantId": "rest_1",
+      "name": "Hyderabadi Chicken Dum Biryani",
+      "price": 240,
+      "category": "Main Course",
+      "availability": true,
+      "description": "Slow-cooked aromatic basmati rice layered with tender spiced chicken and saffron aromatics.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&auto=format&fit=crop&q=80",
+      "isVeg": false
+    },
+    {
+      "itemId": "item_102",
+      "restaurantId": "rest_1",
+      "name": "Paneer Butter Masala",
+      "price": 190,
+      "category": "Main Course",
+      "availability": true,
+      "description": "Fresh cottage cheese cubes simmered in a creamy, velvety tomato and butter gravy.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_103",
+      "restaurantId": "rest_1",
+      "name": "Garlic Butter Naan (2 pcs)",
+      "price": 70,
+      "category": "Breads",
+      "availability": true,
+      "description": "Clay-oven baked leavened flatbread infused with roasted minced garlic and butter.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_104",
+      "restaurantId": "rest_1",
+      "name": "Gulab Jamun (2 pcs)",
+      "price": 60,
+      "category": "Desserts",
+      "availability": true,
+      "description": "Golden fried milk dumplings soaked in fragrant cardamom and rose sugar syrup.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_105",
+      "restaurantId": "rest_1",
+      "name": "Tandoori Murgh (Half)",
+      "price": 260,
+      "category": "Starters",
+      "availability": false,
+      "description": "Chicken marinated overnight in hung curd and tandoori spices, char-grilled to perfection.",
+      "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=500&auto=format&fit=crop&q=80",
+      "isVeg": false
+    },
+    {
+      "itemId": "item_201",
+      "restaurantId": "rest_2",
+      "name": "Classic Margherita Pizza 10\"",
+      "price": 280,
+      "category": "Pizzas",
+      "availability": true,
+      "description": "San Marzano tomato sauce, fresh mozzarella di bufala, basil leaves and extra virgin olive oil.",
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_202",
+      "restaurantId": "rest_2",
+      "name": "Smoked Chicken & Mushroom Pizza 10\"",
+      "price": 360,
+      "category": "Pizzas",
+      "availability": true,
+      "description": "Herb-roasted chicken, wild button mushrooms, caramelised onions and shredded mozzarella.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=80",
+      "isVeg": false
+    },
+    {
+      "itemId": "item_203",
+      "restaurantId": "rest_2",
+      "name": "Creamy Fettuccine Alfredo",
+      "price": 290,
+      "category": "Pastas",
+      "availability": true,
+      "description": "Handcrafted fettuccine tossed in a rich parmesan and garlic cream sauce with fresh herbs.",
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_204",
+      "restaurantId": "rest_2",
+      "name": "Tiramisu Classico",
+      "price": 180,
+      "category": "Desserts",
+      "availability": true,
+      "description": "Espresso-soaked savoiardi ladyfingers layered with mascarpone cream and dusted with cocoa.",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_301",
+      "restaurantId": "rest_3",
+      "name": "Crispy Double Bacon Cheeseburger",
+      "price": 220,
+      "category": "Burgers",
+      "availability": true,
+      "description": "Crispy chicken patty, melted cheddar cheese slice, smoky barbecue drizzle and fresh lettuce.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=80",
+      "isVeg": false
+    },
+    {
+      "itemId": "item_302",
+      "restaurantId": "rest_3",
+      "name": "Truffle & Herb French Fries",
+      "price": 110,
+      "category": "Sides",
+      "availability": true,
+      "description": "Golden skin-on potato fries tossed in truffle oil, sea salt and dried rosemary.",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    },
+    {
+      "itemId": "item_303",
+      "restaurantId": "rest_3",
+      "name": "Belgian Chocolate Thick Shake",
+      "price": 140,
+      "category": "Beverages",
+      "availability": true,
+      "description": "Thick creamy milkshake whipped with imported dark chocolate and chocolate chips.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
+      "isVeg": true
+    }
+  ],
+  "deliveryPartners": [
+    {
+      "partnerId": "dp_1",
+      "name": "Alex Kumar",
+      "phone": "+91 94471 22334",
+      "vehicleNo": "KL-05-AB-1234",
+      "active": true,
+      "status": "AVAILABLE",
+      "rating": 4.9,
+      "currentLocation": "Arrived at Main Junction"
+    },
+    {
+      "partnerId": "dp_2",
+      "name": "Rahul Nair",
+      "phone": "+91 94472 55667",
+      "vehicleNo": "KL-05-CD-5678",
+      "active": true,
+      "status": "AVAILABLE",
+      "rating": 4.7,
+      "currentLocation": "Koovappally Bypass"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "QB-6642",
+      "customerId": "usr_cust_1",
+      "customerName": "Alan Simon Tom",
+      "customerPhone": "+91 98470 54321",
+      "deliveryAddress": "Green Valley Villa No. 4, Kanjirappally, Kottayam, Kerala - 686507",
+      "restaurantId": "rest_1",
+      "restaurantName": "Royal Spice Kitchen",
+      "items": [
+        {
+          "itemId": "item_101",
+          "name": "Hyderabadi Chicken Dum Biryani",
+          "price": 240,
+          "quantity": 1,
+          "subtotal": 240
+        },
+        {
+          "itemId": "item_103",
+          "name": "Garlic Butter Naan (2 pcs)",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70
+        }
+      ],
+      "subtotal": 310,
+      "tax": 15.5,
+      "deliveryFee": 40,
+      "totalAmount": 365.5,
+      "status": "DELIVERED",
+      "orderDate": "2026-10-21T17:56:00.824Z",
+      "partnerId": "dp_1",
+      "partnerName": "Alex Kumar",
+      "partnerPhone": "+91 94471 22334",
+      "partnerVehicle": "KL-05-AB-1234",
+      "partnerLocation": "Arrived at Main Junction",
+      "paymentId": "pay_1792605360824",
+      "payment": {
+        "paymentId": "pay_1792605360824",
+        "orderId": "QB-6642",
+        "amount": 365.5,
+        "paymentMethod": "UPI",
+        "status": "COMPLETED",
+        "transactionDate": "2026-10-21T17:56:00.824Z"
+      },
+      "rating": null
+    },
+    {
+      "orderId": "QB-1001",
+      "customerId": "usr_cust_1",
+      "customerName": "Alan Simon Tom",
+      "customerPhone": "+91 98470 54321",
+      "deliveryAddress": "Green Valley Villa No. 4, Kanjirappally, Kottayam, Kerala - 686507",
+      "restaurantId": "rest_1",
+      "restaurantName": "Royal Spice Kitchen",
+      "items": [
+        {
+          "itemId": "item_101",
+          "name": "Hyderabadi Chicken Dum Biryani",
+          "price": 240,
+          "quantity": 2,
+          "subtotal": 480
+        },
+        {
+          "itemId": "item_103",
+          "name": "Garlic Butter Naan (2 pcs)",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70
+        }
+      ],
+      "subtotal": 550,
+      "tax": 27.5,
+      "deliveryFee": 40,
+      "totalAmount": 617.5,
+      "status": "DELIVERED",
+      "orderDate": "2026-10-20T19:15:00.000Z",
+      "partnerId": "dp_1",
+      "partnerName": "Alex Kumar",
+      "partnerPhone": "+91 94471 22334",
+      "partnerVehicle": "KL-05-AB-1234",
+      "partnerLocation": "Delivered at customer doorstep",
+      "paymentId": "pay_1001",
+      "payment": {
+        "paymentId": "pay_1001",
+        "orderId": "QB-1001",
+        "amount": 617.5,
+        "paymentMethod": "UPI",
+        "status": "COMPLETED",
+        "transactionDate": "2026-10-20T19:15:45.000Z"
+      },
+      "rating": {
+        "stars": 5,
+        "comment": "Food was blazing hot and delicious! Biryani aroma was incredible.",
+        "ratedAt": "2026-10-20T20:10:00.000Z"
+      }
+    },
+    {
+      "orderId": "QB-1002",
+      "customerId": "usr_cust_1",
+      "customerName": "Alan Simon Tom",
+      "customerPhone": "+91 98470 54321",
+      "deliveryAddress": "Green Valley Villa No. 4, Kanjirappally, Kottayam, Kerala - 686507",
+      "restaurantId": "rest_2",
+      "restaurantName": "Bella Italia Trattoria",
+      "items": [
+        {
+          "itemId": "item_201",
+          "name": "Classic Margherita Pizza 10\"",
+          "price": 280,
+          "quantity": 1,
+          "subtotal": 280
+        },
+        {
+          "itemId": "item_204",
+          "name": "Tiramisu Classico",
+          "price": 180,
+          "quantity": 1,
+          "subtotal": 180
+        }
+      ],
+      "subtotal": 460,
+      "tax": 23,
+      "deliveryFee": 40,
+      "totalAmount": 523,
+      "status": "PREPARING",
+      "orderDate": "2026-10-21T16:45:00.000Z",
+      "partnerId": "dp_2",
+      "partnerName": "Rahul Nair",
+      "partnerPhone": "+91 94472 55667",
+      "partnerVehicle": "KL-05-CD-5678",
+      "partnerLocation": "Assigned, waiting at restaurant",
+      "paymentId": "pay_1002",
+      "payment": {
+        "paymentId": "pay_1002",
+        "orderId": "QB-1002",
+        "amount": 523,
+        "paymentMethod": "CARD",
+        "status": "COMPLETED",
+        "transactionDate": "2026-10-21T16:46:12.000Z"
+      },
+      "rating": null
+    }
+  ]
+}

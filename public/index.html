@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>QuickBite — Food Delivery System | SRS v1.0</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="QuickBite — Modern Food Delivery Web Application featuring multi-role order tracking, restaurant management, delivery dispatch, and administrative analytics.">
+  <meta name="theme-color" content="#ff5722">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- Top Demo Role Switcher Bar (Instant Evaluator Switching) -->
+  <div class="demo-role-banner" id="demo-banner">
+    <div class="banner-label">
+      <span>⚡ Quick Role Switcher:</span>
+      <span style="font-weight: 400; font-size: 0.78rem; color: #a5b4fc;">(Click to switch roles instantly)</span>
+    </div>
+    <div class="banner-buttons">
+      <button class="role-switch-btn" data-role="customer" onclick="App.switchRoleDemo('customer')">
+        👤 Customer (Alan)
+      </button>
+      <button class="role-switch-btn" data-role="restaurant" onclick="App.switchRoleDemo('restaurant')">
+        🍳 Kitchen (Royal Spice)
+      </button>
+      <button class="role-switch-btn" data-role="delivery" onclick="App.switchRoleDemo('delivery')">
+        🛵 Delivery (Alex)
+      </button>
+      <button class="role-switch-btn" data-role="admin" onclick="App.switchRoleDemo('admin')">
+        🛡️ Admin (System)
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <nav class="navbar" id="main-navbar">
+    <div class="nav-brand" onclick="App.navigate('home')">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-name">Quick<span>Bite</span></div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <!-- Injected by app.js based on role -->
+    </ul>
+
+    <div class="nav-actions" id="nav-actions">
+      <!-- Injected by app.js based on role -->
+    </div>
+  </nav>
+
+  <!-- Main Content Viewport -->
+  <main class="container" id="app-root">
+    <!-- Screen content dynamically mounted here -->
+  </main>
+
+  <!-- Toast Notification Host -->
+  <div id="toast-container"></div>
+
+  <!-- Footer -->
+  <footer style="background: var(--bg-secondary); border-top: 1px solid var(--border-color); padding: 32px 20px; margin-top: auto; text-align: center; font-size: 0.88rem; color: var(--text-dim);">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 8px; align-items: center;">
+      <div style="font-weight: 700; color: var(--text-main);">QuickBite — Food Delivery System (SRS v1.0)</div>
+      <div>Designed & Developed based on the Software Requirements Specification</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted);">
+        Amal Jyothi College of Engineering • Abith Joseph Biju, Agns Babu, Alan Simon Tom
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/js/api.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
